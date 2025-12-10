@@ -1,0 +1,23 @@
+# 开发环境专用依赖
+-r requirements.txt
+
+# 测试工具
+pytest>=6.0
+pytest-cov
+pytest-asyncio
+pytest-mock
+
+# 代码质量工具
+black
+flake8
+isort
+mypy
+
+# 文档工具
+mkdocs
+mkdocs-material
+
+# 开发辅助工具
+ipython
+jupyter
+watchdog
